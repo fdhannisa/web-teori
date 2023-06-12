@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    background-color: rgb(24, 129, 234);
+}
+
+nav .container-fluid .navbar-brand{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body {
+    padding-top: 50px;
+    /* Tambahkan padding pada body agar konten tidak tertutupi oleh navbar */
+}
+
+.sidebar {
+    position: fixed;
+    top: 55px;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    padding: 10px 14px;
+    background-color: dodgerblue;
+    z-index: 100;
+}
+
+.sidebar li {
+    height: 50px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.sidebar li a{
+    color: white;
+}
+
+.main-content {
+    margin-left: 240px;
+    /* Sesuaikan lebar sidebar di sini */
+}
+
+.table {
+    margin: 10px;
+    /* Atur margin sesuai kebutuhan */
+}
